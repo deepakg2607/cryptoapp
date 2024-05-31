@@ -1,6 +1,6 @@
 import { convertDate } from "./convertDate";
 
-export const zsettingChartData =(setChartData , prices) =>{
+export const settingChartData =(setChartData , prices) =>{
     setChartData({
         
         labels: prices.map((price) => convertDate (price[0])), 
